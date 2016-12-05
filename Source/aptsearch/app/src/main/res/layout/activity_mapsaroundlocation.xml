@@ -1,0 +1,43 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/TFaddress"
+            android:textColor="#00f"
+            android:hint="Enter city name">
+            <requestFocus /></AutoCompleteTextView>
+        <Button
+            android:text="Search"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Bsearch"
+            android:onClick="onSearch" />
+
+
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="384dp"
+        android:layout_height="470dp"
+        tools:context="co.coderiver.facebooklogin_sample.MapsActivity" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:id="@+id/blistview"
+        android:onClick="blistviewclick" />
+
+</LinearLayout>
