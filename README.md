@@ -13,19 +13,33 @@ It's always a tough job for any individual to move out of their location and to 
 We have these included in our Application
 
 1)Login Page with complete validations
+
 2)Registration Page with complete validations
+
 3)Home Page with 2 Options
-  a) Search near your current location
-  b) Search by your desired city
+  
+  -----a) Search near your current location
+  
+  -----b) Search by your desired city
+
 4)Results are then shown in 2 ways
-  a) Map View
-  b) List View
+  
+  -----a) Map View
+  
+  -----b) List View
+
 5)Clicking on any result takes you to the Owner's Details page
+
 6)Chat with the Owner feature
+
 7)Calling the owner directly from the application
+
 8)A Seekbar with an advantage of switching between the pages
 
-The final feature we have implemented a Seekbar in a way that the user can switch between screens instantly like he can move from a final screen to the 1st screen in just one drag.
+
+###The final feature we have implemented a Seekbar in a way that the user can switch between screens instantly like he can move from a final screen to the 1st screen in just one drag.
+
+Below are the links for our continous work
 
 This is the link for project pre-proposal
 
