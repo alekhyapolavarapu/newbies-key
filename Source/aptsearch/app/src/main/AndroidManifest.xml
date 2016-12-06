@@ -46,7 +46,8 @@
         <activity
             android:name=".viewinterface.ListActivity"
             android:label="ListViewDetails" />
-        <activity android:name=".viewinterface.DetailActivity" />
+        <activity android:name=".viewinterface.DetailActivity"
+            android:label="Seller Details" />
         <activity
             android:name=".SignupActivity"
             android:label="@string/title_activity_signup">

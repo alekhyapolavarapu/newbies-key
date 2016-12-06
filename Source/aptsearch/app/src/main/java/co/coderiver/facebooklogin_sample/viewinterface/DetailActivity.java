@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.github.channguyen.rsv.RangeSliderView;
 
 import co.coderiver.facebooklogin_sample.MapsActivity;
+import co.coderiver.facebooklogin_sample.Mapsaroundlocation;
 import co.coderiver.facebooklogin_sample.R;
 import co.coderiver.facebooklogin_sample.chatactivity;
 
@@ -36,6 +37,7 @@ public class DetailActivity extends AppCompatActivity {
 
         ((TextView)findViewById(R.id.lbl_quote_text)).setText(extras.getString(EXTRA_QUOTE));
         ((TextView)findViewById(R.id.lbl_quote_attribution)).setText(extras.getString(EXTRA_ATTR));
+        ((TextView)findViewById(R.id.textView)).setText(extras.getString(EXTRA_ATTR));
         ImageButton phnBtn = (ImageButton) findViewById(R.id.phnBtn);
         ImageButton mapBtn = (ImageButton) findViewById(R.id.mapBtn);
         Button chatBtn = (Button) findViewById(R.id.chatBtn);
@@ -44,7 +46,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent redirect = new Intent(DetailActivity.this, MapsActivity.class);
+                Intent redirect = new Intent(DetailActivity.this, Mapsaroundlocation.class);
                 startActivity(redirect);
                 finish();
             }

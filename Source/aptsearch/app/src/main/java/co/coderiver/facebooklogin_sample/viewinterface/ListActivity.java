@@ -10,8 +10,10 @@ import com.github.channguyen.rsv.RangeSliderView;
 
 import java.util.ArrayList;
 
+import co.coderiver.facebooklogin_sample.MapsActivity;
 import co.coderiver.facebooklogin_sample.R;
 import co.coderiver.facebooklogin_sample.adapter.DerpAdapter;
+import co.coderiver.facebooklogin_sample.middlescreen;
 import co.coderiver.facebooklogin_sample.model.DerpData;
 import co.coderiver.facebooklogin_sample.model.ListItem;
 
@@ -35,6 +37,21 @@ public class ListActivity extends AppCompatActivity implements DerpAdapter.ItemC
                 R.id.rsv_small);
         smallSlider.setRangeCount(4);
         smallSlider.setInitialIndex(2);
+        final RangeSliderView.OnSlideListener listener = new RangeSliderView.OnSlideListener() {
+            @Override
+            public void onSlide(int index) {
+                if(index==1){
+                    Intent moveto = new Intent(ListActivity.this ,
+                            MapsActivity.class);
+                    startActivity(moveto);
+                }
+                else{
+                    Intent directto = new Intent(ListActivity.this ,
+                            DetailActivity.class);
+                    startActivity(directto);
+                }}
+        };
+        smallSlider.setOnSlideListener(listener);
         listData = (ArrayList) DerpData.getListData();
 
         recyclerView = (RecyclerView) findViewById(R.id.rec_list);

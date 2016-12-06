@@ -40,4 +40,27 @@
         android:layout_marginRight="10dp"
         android:src="@drawable/aptsearch"
         android:onClick="particular_location_click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="search around current location"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:hint="Search around current location"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="search around particular location"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:hint="Search around particular location" />
 </RelativeLayout>

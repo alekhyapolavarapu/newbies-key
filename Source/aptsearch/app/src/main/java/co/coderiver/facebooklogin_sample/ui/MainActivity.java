@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.facebook.AccessToken;
@@ -90,6 +91,8 @@ public static boolean isValid = false;
                 Glide.with(MainActivity.this)
                         .load(profileImgUrl)
                         .into(profileImgView);
+                Intent redirect = new Intent(MainActivity.this, middlescreen.class);
+                startActivity(redirect);
             }
 
             @Override
@@ -135,6 +138,7 @@ public static boolean isValid = false;
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
+
     }
 
     private String message(Profile profile) {
@@ -171,8 +175,12 @@ public static boolean isValid = false;
          final EditText password = (EditText) findViewById(R.id.etpassword);
         final Intent intent = new Intent(this,middlescreen.class);
         final Intent mainIntent = new Intent(this,MainActivity.class);
-        String urlEncodedName = URLEncoder.encode(username.getText().toString());
 
+        String urlEncodedName = URLEncoder.encode(username.getText().toString());
+        if ((username.getText().toString().isEmpty()&& password.getText().toString().isEmpty())){
+            Toast.makeText(getApplicationContext(),"Fields cannot be empty", Toast.LENGTH_SHORT).show();
+        }
+        else{
         String url = "https://api.mlab.com/api/1/databases/avins/collections/signup?q=%7B%22userName%22%3A%22"+urlEncodedName+"%22%7D&apiKey=BPAbTiM732ZB-sDBMcKrmJeVudsLoIZR";
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(url).build();
@@ -230,7 +238,7 @@ public static boolean isValid = false;
             }
         });
 
-    }
+    }}
 
      public void createErrorDialog(){
          AlertDialog.Builder alert= new AlertDialog.Builder(MainActivity.this);

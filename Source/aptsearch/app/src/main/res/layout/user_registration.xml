@@ -18,9 +18,9 @@
         android:layout_width="100dp"
         android:layout_height="85dp"
         android:id="@+id/imgview"
-        android:layout_alignRight="@+id/bregister"
-        android:layout_alignEnd="@+id/bregister"
-        android:src="@drawable/aptsearch" />
+        android:src="@drawable/homeicon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -53,8 +53,11 @@
         android:id="@+id/bregister"
         android:onClick="Register"
         android:layout_below="@+id/etemail"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp" />
+        android:layout_marginTop="35dp"
+        android:layout_alignRight="@+id/etemail"
+        android:layout_alignEnd="@+id/etemail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,10 +65,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Already registered? "
         android:id="@+id/tvalreadyregistered"
+        android:layout_marginTop="49dp"
         android:layout_below="@+id/bregister"
-        android:layout_alignRight="@+id/bregister"
-        android:layout_alignEnd="@+id/bregister"
-        android:layout_marginTop="33dp" />
+        android:layout_alignRight="@+id/imgview"
+        android:layout_alignEnd="@+id/imgview" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -74,9 +77,9 @@
         android:text="Login"
         android:onClick="redirectToLogin"
         android:id="@+id/login_button"
-        android:layout_alignBottom="@+id/tvalreadyregistered"
-        android:layout_toRightOf="@+id/tvalreadyregistered"
-        android:layout_toEndOf="@+id/tvalreadyregistered" />
+        android:layout_alignTop="@+id/tvalreadyregistered"
+        android:layout_toRightOf="@+id/imgview"
+        android:layout_toEndOf="@+id/imgview" />
 
     <EditText
         android:layout_width="wrap_content"

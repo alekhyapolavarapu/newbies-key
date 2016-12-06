@@ -24,11 +24,9 @@ public class middlescreen extends AppCompatActivity {
         final RangeSliderView.OnSlideListener listener = new RangeSliderView.OnSlideListener() {
             @Override
             public void onSlide(int index) {
-                Toast.makeText(
-                        getApplicationContext(),
-                        "LoginPage: " + index,
-                        Toast.LENGTH_SHORT)
-                        .show();
+                Intent moveto = new Intent(middlescreen.this ,
+                        MapsActivity.class);
+                startActivity(moveto);
             }
         };
         smallSlider.setOnSlideListener(listener);

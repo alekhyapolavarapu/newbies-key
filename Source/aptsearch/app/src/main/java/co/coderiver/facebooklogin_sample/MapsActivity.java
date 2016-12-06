@@ -138,28 +138,30 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         //Setting our image as the marker icon.
         mMap.addMarker(new MarkerOptions().position(userCurrentLocationCorodinates)
-                .title("Your current address.").snippet(userAddress.toString())
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.img_icon)));
+                .title("Your current address.").snippet(userAddress.toString()));
         LatLng marker11 = new LatLng(39.034616, -94.579401);
-        mMap.addMarker(new MarkerOptions().position(marker11).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker11).title("Address").snippet("500-698 East 51st Street Kansas City, MO 64110").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker12 = new LatLng(39.035836, -94.589853);
-        mMap.addMarker(new MarkerOptions().position(marker12).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker12).title("Marker").snippet("5049 Wornall Road Kansas City, MO 64112").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker13 = new LatLng(39.053070, -94.556909);
-        mMap.addMarker(new MarkerOptions().position(marker13).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker13).title("Marker").snippet("4011 Park Avenue East Kansas City, MO 64130").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker14 = new LatLng(39.011152, -94.597686);
-        mMap.addMarker(new MarkerOptions().position(marker14).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker14).title("Marker").snippet("6423 Summit Street Kansas City, MO 64113").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker15 = new LatLng(39.025001, -94.536399);
-        mMap.addMarker(new MarkerOptions().position(marker15).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker15).title("Marker").snippet("5511 Jackson Avenue Kansas City, MO 64130").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker16 = new LatLng(39.053638, -94.599884);
-        mMap.addMarker(new MarkerOptions().position(marker16).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker16).title("Marker").snippet("1132 West 41st Terrace Kansas City, MO 64111").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker17 = new LatLng(39.043967, -94.532736);
-        mMap.addMarker(new MarkerOptions().position(marker17).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker17).title("Marker").snippet("4442 Cypress Avenue Kansas City, MO 64130").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker18 = new LatLng(39.040175, -94.617952);
-        mMap.addMarker(new MarkerOptions().position(marker18).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker18).title("Marker").snippet("2804 West 49th Street\n" +
+                "Westwood, KS 66205").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker19 = new LatLng(39.072976, -94.582303);
-        mMap.addMarker(new MarkerOptions().position(marker19).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker19).title("Marker").snippet("212 East 30th Street\n" +
+                "Kansas City, MO 64108").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
         LatLng marker20 = new LatLng(38.996544, -94.598609);
-        mMap.addMarker(new MarkerOptions().position(marker20).title("Marker").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
+        mMap.addMarker(new MarkerOptions().position(marker20).title("Marker").snippet("7232 Summit Street\n" +
+                "Kansas City, MO 64114").icon(BitmapDescriptorFactory.fromResource(R.drawable.hotpadslogo)));
 
         //Setting the zoom level of the map.
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userCurrentLocationCorodinates, 12));

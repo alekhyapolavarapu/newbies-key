@@ -61,8 +61,10 @@ public class SignupActivity extends AppCompatActivity {
 
         //Firebase RegistrationRef = new Firebase("https://findyourtechnician.firebaseio.com/");
 
-
-        if (!validateEmail(EmailId)) {
+        if(userName.getText().toString().isEmpty() && password.getText().toString().isEmpty() && EmailId.isEmpty()){
+            Toast.makeText(getApplicationContext(),"Fields cannot be empty", Toast.LENGTH_SHORT).show();
+        }
+        else if (!validateEmail(EmailId)) {
             Toast.makeText(getApplicationContext(),"please enter valid email addresss", Toast.LENGTH_SHORT).show();
         } else if ((password.length() < 8) || (password.length() > 15)) {
             password.setError("Password should be between 8 and 15 characters in length");
