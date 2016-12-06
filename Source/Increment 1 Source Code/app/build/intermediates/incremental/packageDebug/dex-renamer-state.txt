@@ -1,0 +1,7 @@
+#Thu Oct 13 22:50:27 CDT 2016
+base.0=C\:\\Users\\gshkr\\Downloads\\materiallogindemo-master\\newbieskey\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_588e46144f7fa620045c33811e14de8949fdff52
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\gshkr\\Downloads\\materiallogindemo-master\\newbieskey\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bc7efe15f4db922fb420fea6d902b4b66eae48b0\\classes.dex
+base.1=C\:\\Users\\gshkr\\Downloads\\materiallogindemo-master\\newbieskey\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bc7efe15f4db922fb420fea6d902b4b66eae48b0
+file.0=C\:\\Users\\gshkr\\Downloads\\materiallogindemo-master\\newbieskey\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_588e46144f7fa620045c33811e14de8949fdff52\\classes.dex

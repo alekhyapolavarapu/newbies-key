@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_bbaeb8cfd65f360db97ab9b67ed1253fcc711d5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="115b4c43cf76167723915296090504ef40ac4184">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_588e46144f7fa620045c33811e14de8949fdff52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_1236eee0385eda9715c5ced209607ed6586ce993\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.0_2b9022a5e36d1d3c95ba4c40a08c5be4990db5e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c7e11b348a37547e90cd6d7b773909f093fca182">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bc7efe15f4db922fb420fea6d902b4b66eae48b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_dac9738eaddeea57547bcf1fb4fc4d37bd7d33a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_23235bdbf4b7f27ce207bec4edc3708abcdb0397\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\gshkr\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\gshkr\Downloads\materiallogindemo-master\newbieskey\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_b80360ea577c3a35e37fbb83f112bed8fc83ec23\classes.dex" />
+    </item>
+
+</items>
