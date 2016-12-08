@@ -1,4 +1,4 @@
-# Newbies-Key
+# Newbies-Key - Apartment Search
 This is the repository for our ASE project
 
 ##Team 13
