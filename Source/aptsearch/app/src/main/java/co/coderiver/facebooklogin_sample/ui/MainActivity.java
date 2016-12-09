@@ -265,4 +265,3 @@ public static boolean isValid = false;
         startActivity(redirect);
     }
     }
-
