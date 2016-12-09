@@ -6,8 +6,7 @@ package co.coderiver.facebooklogin_sample.beans;
 public class User {
     private String userName;
     private String password;
-    private String EmailId;
-
+    private String emailId;
 
 
     public String getUserName() {
@@ -26,10 +25,11 @@ public class User {
         this.password = password;
     }
     public String getEmailId() {
-        return EmailId;
+        return emailId;
     }
 
     public void setEmailId(String emailId) {
-        EmailId = emailId;
+        this.emailId = emailId;
     }
+
 }
