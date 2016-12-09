@@ -1,25 +1,21 @@
-package co.coderiver.facebooklogin_sample;
+package com.firebase.androidchat;
 
-/**
- * Created by polavarapu on 12/4/2016.
- */
+import android.app.Activity;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 
-        import android.app.Activity;
-        import android.util.Log;
-        import android.view.LayoutInflater;
-        import android.view.View;
-        import android.view.ViewGroup;
-        import android.widget.BaseAdapter;
+import com.firebase.client.ChildEventListener;
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.Query;
 
-        import com.firebase.client.ChildEventListener;
-        import com.firebase.client.DataSnapshot;
-        import com.firebase.client.FirebaseError;
-        import com.firebase.client.Query;
-
-        import java.util.ArrayList;
-        import java.util.HashMap;
-        import java.util.List;
-        import java.util.Map;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author greg

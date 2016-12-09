@@ -1,11 +1,6 @@
-package co.coderiver.facebooklogin_sample;
+package com.firebase.androidchat;
 
-/**
- * Created by polavarapu on 12/4/2016.
- */
-
-
-        import com.firebase.client.Firebase;
+import com.firebase.client.Firebase;
 
 /**
  * @author Jenny Tong (mimming)

@@ -1,8 +1,4 @@
-package co.coderiver.facebooklogin_sample;
-
-/**
- * Created by polavarapu on 12/4/2016.
- */
+package com.firebase.androidchat;
 
 /**
  * @author greg

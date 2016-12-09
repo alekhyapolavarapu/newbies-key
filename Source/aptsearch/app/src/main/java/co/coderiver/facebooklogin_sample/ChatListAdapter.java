@@ -1,15 +1,11 @@
-package co.coderiver.facebooklogin_sample;
+package com.firebase.androidchat;
 
-/**
- * Created by polavarapu on 12/4/2016.
- */
+import android.app.Activity;
+import android.graphics.Color;
+import android.view.View;
+import android.widget.TextView;
 
-        import android.app.Activity;
-        import android.graphics.Color;
-        import android.view.View;
-        import android.widget.TextView;
-
-        import com.firebase.client.Query;
+import com.firebase.client.Query;
 
 /**
  * @author greg
